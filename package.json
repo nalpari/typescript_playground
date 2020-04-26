@@ -1,0 +1,29 @@
+{
+  "name": "typescript_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "tsc",
+    "webpack": "node_modules/.bin/webpack",
+    "dev": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "es6-shim": "^0.35.5",
+    "html-webpack-plugin": "^4.2.0",
+    "path": "^0.12.7",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
