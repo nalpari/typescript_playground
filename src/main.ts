@@ -42,6 +42,6 @@ class Main implements IMainObject {
   };
 }
 
-main();
 const m = new Main();
 m.init();
+m.methods.fnConsole();
