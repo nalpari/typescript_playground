@@ -67,50 +67,6 @@ class Main implements IMainObject {
       let n: number = 1;
       let m = 2;
     },
-
-    fnExcute05(): void {
-      interface Person {
-        name: string,
-        age?: number
-      }
-
-      let person: Person = {name: 'Jane'};
-
-      class badPerson implements Person {
-        // public name = '';
-        constructor(public name: string) {
-          this.name = name;
-        }
-      }
-    },
-
-    fnExcute06(): void {
-      let array = [1, 2, 3];
-      let tuple: [boolean, number, string] = [true, 1, 'Jane'];
-    },
-
-    fnExcute07(): void {
-      class Container<T> {
-        constructor(public value: T) {}
-      };
-
-      let numberContainer: Container<number> = new Container<number>(1);
-      let stringContainer: Container<string> = new Container<string>('Hello World');
-    },
-
-    fnExcute08(): void {
-      interface Animal {
-        name: string,
-        age?: number
-      }
-
-      interface Person {
-        name: string,
-        tel?: string
-      }
-      type NumberOrString = number | string;
-      type AnimalAndPerson = Animal & Person;
-    },
   };
 }
 
